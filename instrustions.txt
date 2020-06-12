@@ -1,8 +1,17 @@
 Scheduling rooms based on a type (ordinary,penthouse) from a global room function
+
 Cancelling rooms:
   status "Cancelled will be added in the rooms_list for a given record
-  the entry in the Customer_list for given customer will only be deleted ; if all the records are stattes as "Cancelled"
+  the entry in the Customer_list for given customer will only be deleted ; if all the  records are stated as "Cancelled" 
   in the rooms_list for a given customer
   the room numbers with status as cancelled are released to the global room function
-  finally the records  in the room_list for that employee with sattus "cancelled are deleted
+  finally the records  in the room_list for that employee with status "cancelled are deleted
+
+Checking out rooms:
+  status "check-out" will be added in the rooms_list for a given record
+  the entry in the Customer_list for given customer will only be deleted ; if all the  records are stated as "check-out"
+  in the rooms_list for a given customer
+  the room numbers with status as "check-out" are released to the global room function
+  finally the records  in the room_list for that employee with status "cancelled are deleted
+
   
